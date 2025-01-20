@@ -1,0 +1,40 @@
+#Google Hacking
+
+site:
+
+filetype: #sql backup confidential passwords inc zip exe ebook robots.txt
+filetype:xlsx "passwords"
+filetype:txt "username" "password"
+filetype:env "DB_PASSWORD"
+filetype:xlsx "ssn" "dob"
+filetype:pdf "Curriculum Vitae"
+
+
+intitle:"index of" "backup"  #Localiza diretórios ou configurações que podem estar publicamente acessíveis.
+intitle:"index of" "private"
+intitle:"webcamXP" "live view" #Descobre câmeras, roteadores ou outros dispositivos conectados que estão expostos à internet.
+intitle:"index of" site:exemplo.com.br
+
+
+inurl:".php?id="
+inurl:"/admin" login  #Identifica páginas ou sistemas com vulnerabilidades conhecidas.
+inurl:"phpinfo.php" 
+
+
+intitle:"webcamXP" "live view" #Descobre câmeras, roteadores ou outros dispositivos conectados que estão expostos à internet.
+inurl:":8080" "Axis"
+
+ext:sql "password"  #Encontra arquivos de bancos de dados ou informações sensíveis sobre eles.
+ext:log "error"
+
+
+"SQL syntax error" OR "mysql_fetch_array"   #Identifica páginas que exibem mensagens de erro com informações sensíveis.
+intitle:"Error" "Apache Server"
+
+#links
+https://www.exploit-db.com/google-hacking-database
+https://who.is/
+https://registro.br/
+https://iana.org/whois
+https://www.yougetsignal.com/
+https://crt.sh/
