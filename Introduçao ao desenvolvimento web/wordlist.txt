@@ -1,0 +1,6 @@
+admin
+dashboard
+painel
+search
+busca
+noticias
