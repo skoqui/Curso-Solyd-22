@@ -1,0 +1,33 @@
+Criando um par de chaves:
+
+# gpg --gen-key
+ 
+
+Exportando chave pública:
+
+# gpg --armor --export "<Nome>" > arquivo
+ 
+
+Importando chave pública:
+
+# gpg --import <arquivo>
+ 
+
+Criptografando mensagem:
+
+# gpg --armor --encrypt <arquivo>
+ 
+
+Descriptografando mensagem:
+
+# gpg --armor --descrypt <arquivo>
+ 
+
+Assinando mensagem
+
+# gpg --clear-sign <arquivo>
+ 
+
+Verificando assinatura
+
+# gpg --verify <arquivo>
