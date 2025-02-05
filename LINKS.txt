@@ -1,0 +1,14 @@
+http://hashkiller.co.uk/
+
+http://openwall.info/wiki/john
+
+https://hashcat.net/wiki/doku.php?id=hashcat
+
+http://hashcat.net/oclhashcat/
+
+
+http://testphp.acunetix.com/login.php
+
+http://www.openpgp.org/
+
+https://www.gnupg.org/

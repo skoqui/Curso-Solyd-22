@@ -1,0 +1,8 @@
+Montando comando Hydra - POST FORM:
+
+# hydra <IP/Host> -l <login> -P <wordlist> http-post-form "<url>:<campo_usuario>=^USER^&<campo_senha>=^PASS^:<Diferença>" -V
+ 
+
+Hydra HTTP GET:
+
+# hydra <IP/Host> -l <login> -P <wordlist> http-get -V
